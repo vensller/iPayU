@@ -18,7 +18,7 @@ public class PartyController {
     }
 
     public PartyController(){
-        party = new Party(new Date());
+        party = new Party();
         observerList = new ArrayList<>();
     }
 

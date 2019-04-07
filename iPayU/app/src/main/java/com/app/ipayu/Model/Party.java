@@ -6,11 +6,9 @@ import java.util.List;
 
 public class Party {
 
-    private Date partyDate;
     private List<Person> people;
 
-    public Party(Date partyDate) {
-        this.partyDate = partyDate;
+    public Party() {
         this.people = new ArrayList<>();
     }
 
@@ -22,14 +20,6 @@ public class Party {
                 debtList.add(p);
 
         return debtList;
-    }
-
-    public Date getPartyDate() {
-        return partyDate;
-    }
-
-    public void setPartyDate(Date partyDate) {
-        this.partyDate = partyDate;
     }
 
     public void addPerson(Person person){

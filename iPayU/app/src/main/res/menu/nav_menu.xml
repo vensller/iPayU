@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Party People"
+        android:id="@+id/action_people"
+        android:icon="@mipmap/baseline_dashboard_black_18dp"/>
+
+    <item
+        android:title="Calculate"
+        android:id="@+id/action_calculate"
+        android:icon="@mipmap/baseline_done_black_18dp"/>
+
+</menu>
